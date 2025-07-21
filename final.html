@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <link rel="stylesheet" href="style.css">
+            <title>Task Manager</title>
+            <link rel="stylesheet" href="style.css">
+            <script src="final.js" defer></script>
+        </head>
+        <body>
+            <h1>Interactive Task Manager</h1>
+            <form id="taskForm">
+                <input type="text" id="taskName" placeholder="Enter a task" required><br>
+                <label for="priorityDropdown">Priority:</label>
+                <select id="priorityDropdown">
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select><br>               
+                <input type="checkbox" id="importantCheckbox" name="important" value="Important">
+                <label for="importantCheckbox">Important</label><br>
+                <input type="submit" value="Add Task">
+            </form>
+            <div id="taskmanager">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Date</th>
+                            <th>Priority</th>
+                            <th>Important</th>
+                            <th>Completed</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                <tbody>
+            </div>
+        </body>
+    </html>
